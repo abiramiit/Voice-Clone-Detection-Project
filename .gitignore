@@ -1,0 +1,29 @@
+# Git ignore for Voice Clone project
+# Virtual environments
+.venv/
+.venv_dataset/
+venv/
+env/
+# Data and logs
+data/
+logs/
+# Backup
+backup_current/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Test cache
+.pytest_cache/
+# Environment files
+.env
+# IDE/editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+# Large model files (consider Git LFS)
+models/*.bin
+models/*.pt
+models/*.onnx
