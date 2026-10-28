@@ -1,0 +1,4 @@
+GET / -> 200
+GET /static/app.js -> 200
+GET /static/style.css -> 200
+WS SUCCESS

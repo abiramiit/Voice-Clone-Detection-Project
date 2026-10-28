@@ -1,0 +1,4946 @@
+[
+    {
+        "fake_prob": 0.0938034346303328,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.18200924520874906,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.23925776826638345,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.36117354425367565,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.23891309855233034,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9153702818095338,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5061527381904675,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8551159733551245,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6812935150260689,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9139559421207538,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8736897860494697,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5502424500995731,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5631116892132998,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6313105758996089,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.42295298714570406,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.44464400581269425,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5436493050139718,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7018527176183178,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03884252294094703,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9651490549632609,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2557911263961866,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.033706391965730664,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.07707402392870122,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7219081393861314,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1240708483128049,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8785917624147378,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13490731830704028,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9365642131368186,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3883830978571984,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.18705686179921777,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.05650694297660297,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4917141692836874,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.13935854840319062,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6513930865566749,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7193439639562551,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6532604773862706,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3207251657161484,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3634295941539677,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11251717471979295,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5917893020151809,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.20691762300610772,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2542929122172536,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7859899184275602,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5371090384894793,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.12169842454243496,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5102815050824839,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2367209494371627,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8441695815880805,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.08106577156727357,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.32029951451886207,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.903515343629576,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6728527830149807,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6767527913077391,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.562611988933476,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.21191375111467714,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8523471242027387,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4075126571525609,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7788341548275755,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5967728692141916,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3704605059136986,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.09537508018799545,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8270004729666927,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6978024151234834,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.011139427864187867,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4045655104493684,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4496346005808953,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8885787320528629,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7960285331032114,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2901036522144538,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.16371602534497576,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3900416970899492,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.31124722762901136,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7732904734919634,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23767276214011523,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.35837988755318495,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6227118287145643,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9326219407244063,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.34420254981750265,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.44534745175454926,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4288019606013306,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.19210962870767812,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7480381620772972,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6999594825972446,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9708875653920964,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6580654680824141,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.248309113916777,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.24528822320734667,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.45895804410691343,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.272353072749282,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6710294000059525,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03676105630125581,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.845952257155754,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.33709241868123774,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.874913536282569,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.27756168526199065,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7556728792563596,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9005434102102513,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.12228011707496755,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.15978478577659705,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.0866417969702371,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9332635216506067,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.46203139130898685,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.970582777625299,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9287798618527191,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5710495991780454,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9447247278028359,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4664739665960247,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.29506155278511526,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.973320033410447,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3777191409270264,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1232492784535929,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7740894936720626,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8462394103583802,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6908554505792247,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8814061223703248,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.19816648310829277,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11199949374190399,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4283017006788501,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.369018310580033,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.04175191200386641,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5732797369020766,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3443356027822416,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9140796132764554,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4206722960821909,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.13032413196780068,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6812494907155926,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7070095869204372,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23625427460152149,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6754349935233586,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.41213371870875415,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.12028872151395631,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5654085056158907,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5702055371014378,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4290182966119387,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5722253027602164,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6722415614040299,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3769402965816473,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6387273121973565,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8879093069683095,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.0993249768819926,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3613499465703519,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3188866939807783,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.06591211859562829,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6849785356112549,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6450897857515467,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4757339451501229,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6048819066291272,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.0223434256721754,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.756517574747653,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5129865252857423,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4273861918615113,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6392825617869271,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4925027720733993,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.24288349744981652,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4967227383265195,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4829872514946195,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7914790707328426,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.27654075345099804,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5853075334430594,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13577859841456907,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5216454183986803,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.12943726934570887,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7083683199848549,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8469660555534466,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.24195488203870352,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7612203619189929,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.28332386392137754,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.31303734926281734,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9405803955750326,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.43527167461863236,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5396686223623719,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.27453479734300135,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9700301090732488,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.46276171413608636,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.32825477757351673,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5199462365848504,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9448179719970508,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5578845982875921,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8689408387446118,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7956984370262467,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4009361949619774,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9792481252517379,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9597653838236659,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9819237949077751,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.17680029575073353,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9084815837437206,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4060526999204839,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5827032783371388,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6686417555045125,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6594074713873285,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7601065101692548,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7783896380308245,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7141888387023179,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4372871003735477,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5742601493555212,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9655464118300238,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5933833022127962,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13235867780219057,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.42188018213611667,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.25168829074787813,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5856268087947585,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.029021805645847554,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.006479163971162882,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.07423928787046585,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9334499189601606,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4443797575085775,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.619066704013175,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3717840831885977,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.07183723009995635,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9171720103857693,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23457780988263288,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7220247607628482,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3268166306214182,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6043466880609432,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6148673143059892,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9107879753273898,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.850098572710644,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.691601264022296,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9435458827311768,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7873371454525723,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8566669414561262,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4046534304516046,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.24937118352137577,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7852694984495862,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8412123797518921,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9737693022068936,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7750643093104337,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1838057397079541,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5252176495764543,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.003467727041421842,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8251500810498038,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4612304555507831,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7725092310095539,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6573942021303812,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3246963055384676,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3760308288175398,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.06018210379915456,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7121480575175685,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9710621043957012,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.20257745772824287,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.39495476018663367,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8409357991559847,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2219945330267894,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.22917995825795012,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9587744951330203,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.42342767907216283,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4296198238413731,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5302782040264675,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3772399384643893,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2509303622068917,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.49119654678708513,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.32374271469018623,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8669011559324004,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6117905941215105,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.45250341556194484,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6678103869573072,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10720882563154033,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6698219349160331,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.29426890016279306,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.45183517794890193,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.033657221110950486,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.034535168841420605,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8729220261354158,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03362642789170711,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11287075651717504,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6802636818468012,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5942826266931607,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8814939335666353,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4818294875411844,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7473636521334164,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7050361500651079,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7770567729753198,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7727572622556893,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4169037562479473,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4578039832426197,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8197042205746876,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.39347966734136375,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1488559210401602,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4771227213145941,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.061135787196157976,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5386031097490237,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9559077834451273,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4886448116948493,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.14957668724101347,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.825681081600338,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2527553804604117,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9345541465872365,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5226037450928581,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.17768070978474937,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.454246530415249,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4281148455436298,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.02015527099776715,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.694565199237328,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7356047258261098,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.29852048559058897,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9468115416891764,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.030708747307478745,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.908009109419305,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5989332686529311,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6300034365497182,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5698752957300486,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.029924512601245623,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.21044413502881376,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6983250761176493,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.11766230406664546,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.34226747167948335,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.949480538095093,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9396016799652821,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9239903350571129,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7601913364035021,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.15455272966285205,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5890340019177017,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.933472655935532,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7729651488185931,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.898635767830022,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.24567751689296013,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48029201494049856,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7513839799498396,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1286889912580793,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6300843101218304,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8624023628843688,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9698020925205272,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7163683209387932,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6109837608600839,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7493014533416315,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5252451364410414,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6125260377014676,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.28952861897089244,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7008504369658994,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.196588193489054,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.05195667642561341,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6718569080160945,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.40171278554594736,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7702604087171796,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03657179434692759,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.45650023842192144,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9775046296370447,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8253864495778375,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5755880199244925,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7273197720191981,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.0344892365004309,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7240950335512789,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4712680848490899,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5613232589030009,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23571052630034883,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.21658140356108624,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.32240505505105554,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4891347261490747,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.21700861161088236,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.21737625258801274,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.17844482963317743,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20070064786479624,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.673906723133681,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7887474847085579,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.20264198304911496,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3359631010412324,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4627899527401661,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7656229001968896,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7859176475924914,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.946795585231589,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6134217387688614,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.16565757803213976,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7875464167474171,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6825190991182023,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18769048439876979,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.23335184180938506,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5952482634931423,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6366541267047754,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.31895716619049364,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5480866821821048,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7529801477131978,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2649646451975489,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.19849503744627495,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.09319023043038321,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3403444689660703,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6279337532608149,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.34107036786633405,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4222519936282869,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2663872927947102,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1086142254940401,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1504891938405406,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5525751889914585,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7288017644719212,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4928577518097258,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.19134162880582517,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.32053088552857734,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9584569968600342,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13100003505110958,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.028037216108895535,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.41481389009723757,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1806690606726984,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2875689411133904,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.06127857108876511,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.743803256100434,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1348468558219973,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.43359346528456033,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.007264393764665589,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8873100956547042,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6278814921228141,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.439382553698929,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3373085331758977,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7294227875385301,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9779899119202585,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.047611819854220805,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8756594561036869,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4042916980713822,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.259468663693749,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9157726570827971,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.061761084164022484,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2639134433436615,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.671055267642767,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.901321070287043,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6282282118713528,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.30646175006086074,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.10771037219829838,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.209245555809915,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7460593285826438,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.09780754447090734,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.17385032944011392,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.174425353911561,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6298531915478011,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1829827399807169,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48735596009669624,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.0037320362172394983,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.25784939778411486,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48118676346957323,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.46326065275889927,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.08397122451818739,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.05780678217172874,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5108641746402395,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5906143808999978,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.41331346114484246,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.19538486529966204,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4143585489971241,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.983678597057231,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3090650122650227,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.03087550213904755,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.825181222306705,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9450347489608374,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.06454537250191295,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5976074830313802,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9818630598455769,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10405052217924426,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6268803137209321,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6365972437599446,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.09371568928363416,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6588621097258783,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.41728281979962134,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.37814126102830414,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6867859318832358,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7222864742686702,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5848929633084369,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.31785135840043865,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9689052216902669,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8991952711051322,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.47349919519790873,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48387571690639897,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2341327478970917,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8804054007462648,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7081833728293825,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18098686637687544,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1491027749310151,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5593840816481744,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7174159814802396,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9859320647561561,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3104242483270794,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11106595174763412,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.47643764570719016,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7391933252080655,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22548633885411618,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5255409108513799,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.15808438727443397,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.955204381647449,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5783754490544877,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6477248213648648,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9886459273103472,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7957228100716267,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03873061028738789,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11915745004193967,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9122825819652627,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3186033943471871,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9327433999815482,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6078241363298684,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9694843526089563,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.08597125899377434,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.09868549509000568,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5755246094055082,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.09850196048776905,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3578466500823707,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3364749991802448,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.26774797564110786,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8039529257314759,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7711153701177949,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.37400344687510934,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5047239409949735,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9196585578402919,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6901627190264484,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5474836339165854,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5046166533188984,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7243296901780838,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.908772259298213,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4446948621721104,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.41774073632730924,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11350235918833607,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5281872064050775,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.34662111624501446,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.17633875958743284,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5608453257945912,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.589668619488609,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.15813694089040664,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.32483878826103474,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8184026577996671,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8692001779491179,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1707675551117721,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.839985403256243,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6732813080868975,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9954871745136457,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.052732563349487394,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8115779512341906,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6299939634686116,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5154420979954685,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.05096277040900998,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8567537888756529,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.978061464425862,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.46416929827136844,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4011756451457221,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.36172720115645896,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1109248382865925,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7128355097558987,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1027066567193331,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9465269268756024,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5484787851888421,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.66070358004118,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22845485314982372,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7758631222500549,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7700844553218784,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4090515527916351,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1155784174905623,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3793431442415486,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6934074532690815,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.19278719571551162,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4325095187137089,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3658189928971489,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6954032737607803,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3903335132887942,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6190307918049067,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.93070521795262,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.19141834103411692,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9691795304074994,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6843157726063916,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9265689356760152,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9622064251462201,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8095034081423023,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.36421160199815494,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7924836653094708,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8377171413571137,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.014411024966172747,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7566728851635286,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.42001477718202496,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5529613859924366,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6288144736958744,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6411097197760325,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5315605605840211,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.016564783876283795,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2654837372021026,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9080050088346404,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5376377474745306,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.07318246554923369,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5968066978759863,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.023256049957766423,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3524979701355835,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7018444115096685,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.014918100239583731,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6806295253060725,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8611493187622967,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5046868954599055,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2571355359625639,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4313446088317425,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4138651157614218,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.435552330555097,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.895350433983684,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.04128061453445131,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.758478222330834,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.60147475778103,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.20074628199812017,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7085696779846137,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.912908159681575,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.29273582544913246,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.776968918546543,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.189992991590766,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1688142557277078,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8018719101681999,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4160587245030489,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6556467953685139,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9033498367633463,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3431723624696297,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3701560374686921,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.733255405007827,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7442624485534233,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23402286190866506,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4391795945286495,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5658670475840479,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7523820334310131,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5984497261623049,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3670037534566982,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7589413687731051,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8766662032890803,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23063744108193274,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20158841646424208,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2723597961306943,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9744011344869885,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5260379858199806,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2617323498547053,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6243441091497725,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8159843504292128,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2785192352366561,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20051054947468694,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2633290507369962,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.617499902659505,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.32944886820587305,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5105037154849216,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6052043309270889,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2982079113046655,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6670457613123237,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.000779706950021053,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.0704221783389507,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.56250746114672,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9750461265535569,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.006714679036152971,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4146102419865504,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.03157985861746604,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.04687743838386427,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.26926430495826126,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.43099402416730936,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2552807741473918,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5884233915287214,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7362711899079777,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22116663277687,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3137698624323352,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20257447397462336,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.07302986628541497,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.125546789295237,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.18231760865610525,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3547013973168728,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48177203276047464,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.33333456127091143,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.033453686983427544,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7814213389472856,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.17291156609788194,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9280881156539078,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6793847626825171,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.34323267820225845,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8350891750748846,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.02574646171034045,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7820307331400411,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7315802316901618,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6254547157653418,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.29940859041992673,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5436610451078543,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13918232379631124,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2746176838098414,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5435392096152422,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.30775778436032275,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7053195900687282,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.24657685490535042,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4878970750493937,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.775024061481913,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.0711478261344256,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7382343635356714,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.878463308301736,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9619146046670097,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9566922438306702,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8350805588777919,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9605721034528785,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.14627066960158164,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7923007825868742,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3935899054223527,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11277868912222333,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7823047569959082,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.680427555725342,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.873778160561853,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2873240415742522,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.417031517133281,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.620261343411968,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7408420626114397,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9817142124846451,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.21319688068973341,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4385998500642131,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.25408414707397575,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.04098905922801177,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.45784757248640495,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.31255590742125594,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20372907259974715,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.06717703220228,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5021923588024091,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8862842722650062,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03322376349454148,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1900695661627424,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.22099771812708913,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2910710672630207,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5122909785451616,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03807426532463487,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.17980245238454884,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9574887272560786,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4117105172523824,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.31408362364662024,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.07166566052040269,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9387998991373805,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7087880848363856,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9150771185481112,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.0002751913889645907,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5909390421425714,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6481040621317593,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3901480158181876,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8339107866385672,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6519670084742292,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5776694209421959,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9660945381531426,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9324605882140357,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6709048748478131,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.188453887294892,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6191838574587245,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5888511110286544,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6704363155841542,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5782518480092192,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6888078749067088,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8068672760852772,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18701353008854804,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3246609003351214,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3508987541937386,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8853999115488189,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5954737978564312,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6393799662773154,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6057867184002549,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6024898643691157,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6312916688099733,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.38683108238244335,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.46709543061563163,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5488778153294277,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9378698149993905,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.24930930766962445,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9387798408637886,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2776540857973214,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2843823463315298,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.13484886745609936,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6627091601370214,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13014837660579448,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9459181238698103,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22795287740687564,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4880507142264078,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9031448966869705,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3445450042687992,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7053509626915011,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.34889211135821785,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9137957574992686,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2905425585516398,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1810340668890611,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7560421375415053,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.0038950162369253416,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2951878926861857,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5471517542018721,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4759618350822804,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5142349188406372,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7164320436452634,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23239432261532955,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.45240995850837595,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.04135977201870389,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.010636012588893462,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6867589669087962,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.43829406773827895,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7050210494294034,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.696746397674452,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.33411811596002006,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9975491915886263,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.836857721368026,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6452431004661122,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3888226164245484,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5678004913577639,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9321161502168739,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8745032433312001,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10397930227640795,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.18478221806193185,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.27227672690734794,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6058972894413112,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4456717065709531,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8668032208036188,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6337568529056631,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9321534126667069,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.778443225565445,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.08217857738596812,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6704029715957137,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.47641197615056863,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7240568851091495,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6341043101865785,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5135660242006803,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6214653306375153,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.052242536708513754,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.14274665992253766,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.39445949862689755,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4559057917006669,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.31978723224961136,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5856697117617096,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9421418831227772,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9046830916060851,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2150381472163353,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4935659941831646,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.06670115623347483,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4146878362313029,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3269813769272798,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5485106737040774,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5011048740639219,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.09944984795586598,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9781221829413358,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4819133259912701,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.09775162670064896,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2650687550029279,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.39788909267352246,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7598344418375094,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.969124338552889,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9088546410712655,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8839479559519962,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9709248947863405,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.05056689763929789,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.10345395989134709,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9892247625548488,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.83586742407001,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7718772516867304,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.89632850670391,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2555254781095535,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8825095517741068,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.019007642218515475,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8705581303048437,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7764383990071122,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2196053450256754,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.550404459587576,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.37370116053028657,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6920982664941155,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10545589602160987,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.847112725816672,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4791219242911171,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.13591853648640573,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.016855353594514066,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5129221037205577,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.40573269783431387,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9319751363625782,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.694799879385354,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.03588406792141363,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5216520575194367,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9781148980016323,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.795838955855002,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18750413823408496,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9906399520750393,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4492812101631096,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2133708850120135,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1452281564634127,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.854364320389643,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8479520198969278,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8968175712107672,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.45606135609591414,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.023069982186528115,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.47460656913737653,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6222177184784666,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9003161256084685,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9708133430630053,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9306199327344784,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5715927038679115,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8456221464450034,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1560990092935436,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.39112308736110757,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8086282116509392,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2357500385841219,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5727158428227762,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8938077274460882,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6009841705337001,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1536205206444048,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8071128175621315,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.00782720627130351,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1384053099617215,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2341926271642727,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5105297864236958,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.49760197572698717,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6892788723369727,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7244985408946728,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8107225262723914,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3155896422162885,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.03611026789322935,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8597709755790782,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.11896302172781581,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7946260518382394,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2332172980987295,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4018468522234969,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.34219727852054405,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5991358614814656,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8709911619171298,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18353191762919674,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6859950614219942,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.662432813039045,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.50939476611846,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.41791073276332347,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9427607035554003,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7797567974364883,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22628520499626903,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8902052483457825,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4040527757087432,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3166583314532183,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6469391785955195,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3968460256822167,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8892112260027277,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8865773906953527,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5372378371701177,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7686302618674467,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.014475500958618048,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.09423560088461869,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.755026511080954,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8486290072332061,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2223362225642157,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.129166949680529,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9709208691563597,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.825772529083201,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5428921998086372,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9850335223075302,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9741005616680153,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.07823949952046749,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2321866905537262,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3346789902611045,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7822179556128506,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.038732566217564934,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8634585807143481,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9988219067294225,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7308755340728557,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.465201548691516,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.37698531432589355,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5160400630658755,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6583819843947442,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.553246927980012,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.23251142757674603,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.34231921167077073,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.22364600739940232,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.13063299595150524,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4801846612474234,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.27792984485890815,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6737621893044718,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.41343946025560196,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.28485714649865046,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7823628912935182,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.39884419209427857,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1342875665807699,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.29380881159598093,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5183340701752559,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18578547639481502,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.26966895010925607,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.41242540079914924,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6298259528569853,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8541713117407196,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7824274558498108,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8990376195705557,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8656460477529202,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5219550852931746,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9428267501517805,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1937666492209137,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4011767492232574,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20553953299302075,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3557731509808566,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2965398002020132,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.22818420897634717,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8335258140826649,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5038394660214891,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.04183987034928838,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9896682978591081,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7329937984639187,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9172422573218837,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6702544759944059,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4393917020662792,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3617698910330448,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48630998596054653,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.727799881069261,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9055808287259679,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5523963643021569,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.16419163786580837,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.342458842363788,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6576001852699761,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22373238670545825,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.571919524658977,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.355789002872251,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7587744870853973,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.24549686634753642,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.04218429817279301,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4234964897031869,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.35263070698630994,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6660055134075216,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7992186088898163,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.14788757126957341,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7415005759872944,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7652089220087496,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7538287050556498,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7530125090836968,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6116168079522908,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.49148846568436055,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9410481993940395,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9113656819220455,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7683232773842605,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5108383493532134,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.14802259157304642,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8618017631108517,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3177084332993393,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3040959066951916,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.34598055150670504,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5553174076576411,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22949583894237313,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7843772827032941,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6538940416105655,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2786885933290012,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6612800247757632,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.19559207671113676,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1408697585450126,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5699661284136152,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.022604189883788206,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.42426627027575703,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11088908214545756,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2485186467796301,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3115111250143403,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7884384731052652,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9464431624329627,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6886680622942513,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.45649270738100256,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5272058410376992,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.11829633990663935,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9220427209635835,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.20878288961366287,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.395659266535485,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.020204223217410444,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4520930803128079,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8285558816105926,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5320188239955533,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.21395175033281744,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7677472164955444,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.048238076251876594,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.08634922256390265,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.49759832157444017,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6103765450729355,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.06020685990752095,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6657075299921182,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5841779031967126,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5787743192626634,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10597508875461803,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4497988104053401,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9410652380085146,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7436024927255915,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.76689215497904,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.06913332983585874,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8599238064716337,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.19358715944167337,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.35377998055811055,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.786550395081533,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.08830459236045729,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5918460071513209,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8641036270755039,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6961873225966999,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5534476249632042,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6580580801453878,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5033148362821229,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6505246382907991,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1306048723852805,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4174627780040544,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.15628851573754976,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9194390186422401,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5112509824350857,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.19351736393546703,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9911443402396095,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9048912003571059,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8277656446669135,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8518637607019123,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.020927334341706127,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.24335422663458606,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2744971090066889,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.18814496408682546,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9851437441490432,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10986328223457453,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1123931663945168,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5397524208808268,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.99975726772226,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3583983571099023,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6890553455869745,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.17275793137307038,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7611652522475267,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6835682470316751,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.078957548531019,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.09904531055244636,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5196075161513802,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7717502146241972,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.34294936875569915,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.12811054506965902,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48942549709105343,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9133137343757192,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5759154549902705,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2990852093262393,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5791094400480798,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8363743788342982,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1823626084367399,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.05024795093517487,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.015084124983975489,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6126081135405268,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5740633571269733,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9625930238398315,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8704048658446062,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.10713925996998763,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4307390245521575,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.39881337720297483,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.40131907740012196,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5582925968488895,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.07764701193441848,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6802163803607032,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.020122443639174703,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2920650514458438,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6731553241927617,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6987615180133677,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6720513854989112,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7402035008795396,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.43784007359583876,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3701857196108467,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.010148979818264792,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.11193739268933167,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3763346221568068,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1325532767138149,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8227249017874029,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3673744806884599,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.29988169001988285,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.21309801540224016,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5939722288850817,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8799702517062469,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.45733295423601406,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4108822895802877,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8569248956383483,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7534641068299673,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8218561509620499,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9043077947470952,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.561289206069833,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8073947192942355,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7307568154881959,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.13165031415913309,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.1668317209510406,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.20285181378942485,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7710948073643786,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.22163623552210787,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9990177881353439,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8436205308962887,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2636700945716114,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.275158274158407,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.695352334262497,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.11248826901147047,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.31758478614866614,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6103654294443832,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18621786642093285,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.40334616605570894,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7244318352639268,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4465804057234729,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6207544313114886,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6617018237280111,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7249661491378944,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5973447672994633,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6639643772671971,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3183896935843419,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7656157825859456,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.785629538294737,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6077139636936167,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8236740425963074,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6110135672760114,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7342915787505818,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9809197986073982,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8435483934462986,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7669319395804938,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6761627876595624,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7082950995771233,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5459145797254138,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.66421912840662,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2508938395462533,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.2491015686106265,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5544830402929268,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8796532933724772,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.2288324779293417,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.45652188854019626,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.08854086081517565,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.39419340024181826,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.3668993762299968,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5980837563765848,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.33057241283164396,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5786153637397636,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.11529902434675521,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.4440910280396039,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8029139044318234,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4061535194585625,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.027774472314946452,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6773996441322235,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3785141243084216,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.046036307190792325,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6029862422944281,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9971214557343944,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.14920605528091324,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.24502164084711386,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.5840494980910309,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.09997662696152132,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.48995344774031946,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.42417938281097833,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8146703668650866,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.1916255764091923,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7798514426377677,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.12675467500201087,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.7589241362272654,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.33749255015181145,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.05678661204456448,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.17785015491755107,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.8096297208760377,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.18042960952393117,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6410257854081577,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.3610897661763154,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9505597337401761,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7794279598924532,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.896741719368111,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8689908553492537,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.28340404042203415,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.37396172742769773,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.012555348071647376,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.6568095629188871,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7452898728335732,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7922864892004714,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7098253395145863,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.7002623779189742,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.5174646550424931,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9032269958868548,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.9161716957327911,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8711229694944352,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.007747302696723635,
+        "label": "HUMAN"
+    },
+    {
+        "fake_prob": 0.9675708404317245,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.6184410802334784,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.8497015595950708,
+        "label": "AI-GENERATED"
+    },
+    {
+        "fake_prob": 0.4184496779504153,
+        "label": "HUMAN"
+    }
+]

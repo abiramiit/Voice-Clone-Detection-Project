@@ -1,0 +1,116 @@
+========================================
+1. ENVIRONMENT INIT & DATALOADER
+========================================
+Python executable: E:\resume-project1\.venv_dataset\Scripts\python.exe
+PyTorch version: 2.11.0+cu128
+CUDA version: 12.8
+GPU: NVIDIA GeForce RTX 2050
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Train count: 1000
+Validation count: 200
+Class distribution (Train): Bonafide=500, Spoof=500
+Class distribution (Val): Bonafide=100, Spoof=100
+========================================
+2. MODEL INITIALIZATION
+========================================
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|##########| 211/211 [00:00<00:00, 27755.07it/s]
+[transformers] [1mWav2Vec2ForSequenceClassification LOAD REPORT[0m from: facebook/wav2vec2-base
+Key                          | Status     | 
+-----------------------------+------------+-
+project_q.weight             | UNEXPECTED | 
+quantizer.codevectors        | UNEXPECTED | 
+quantizer.weight_proj.bias   | UNEXPECTED | 
+project_hid.weight           | UNEXPECTED | 
+quantizer.weight_proj.weight | UNEXPECTED | 
+project_q.bias               | UNEXPECTED | 
+project_hid.bias             | UNEXPECTED | 
+projector.weight             | MISSING    | 
+classifier.bias              | MISSING    | 
+projector.bias               | MISSING    | 
+classifier.weight            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Trainable parameter count: 90368642
+Frozen parameter count: 4200448
+Learning rate: 3e-05
+Batch size: 1
+Accumulation steps: 8
+Epochs: 3
+
+========================================
+3. TRAINING LOOP START
+========================================
+
+--- Epoch 1/3 ---
+Training Loss: 0.1159
+Validation Loss: 0.0049
+Validation Accuracy: 1.0000
+Validation Precision: 1.0000
+Validation Recall: 1.0000
+Validation F1: 1.0000
+Confusion Matrix:
+                Predicted
+              Bonafide Spoof
+Actual Bonafide  100     0
+       Spoof     0       100
+Predicted class distribution: Bonafide=100, Spoof=100
+Actual class distribution: Bonafide=100, Spoof=100
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:01<00:00,  1.70s/it]Writing model shards: 100%|##########| 1/1 [00:01<00:00,  1.70s/it]
+--> Saved NEW best checkpoint at Epoch 1 (F1: 1.0000, Val Loss: 0.0049)
+
+--- Epoch 2/3 ---
+Training Loss: 0.0034
+Validation Loss: 0.0014
+Validation Accuracy: 1.0000
+Validation Precision: 1.0000
+Validation Recall: 1.0000
+Validation F1: 1.0000
+Confusion Matrix:
+                Predicted
+              Bonafide Spoof
+Actual Bonafide  100     0
+       Spoof     0       100
+Predicted class distribution: Bonafide=100, Spoof=100
+Actual class distribution: Bonafide=100, Spoof=100
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  1.04it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  1.04it/s]
+--> Saved NEW best checkpoint at Epoch 2 (F1: 1.0000, Val Loss: 0.0014)
+
+--- Epoch 3/3 ---
+Training Loss: 0.0012
+Validation Loss: 0.0006
+Validation Accuracy: 1.0000
+Validation Precision: 1.0000
+Validation Recall: 1.0000
+Validation F1: 1.0000
+Confusion Matrix:
+                Predicted
+              Bonafide Spoof
+Actual Bonafide  100     0
+       Spoof     0       100
+Predicted class distribution: Bonafide=100, Spoof=100
+Actual class distribution: Bonafide=100, Spoof=100
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  1.32it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  1.32it/s]
+--> Saved NEW best checkpoint at Epoch 3 (F1: 1.0000, Val Loss: 0.0006)
+
+========================================
+4. POST-TRAINING RELOAD INFERENCE
+========================================
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:  11%|#1        | 24/215 [00:00<00:00, 218.12it/s]Loading weights:  24%|##4       | 52/215 [00:00<00:00, 242.09it/s]Loading weights:  36%|###5      | 77/215 [00:00<00:00, 212.19it/s]Loading weights:  46%|####6     | 99/215 [00:00<00:00, 148.73it/s]Loading weights: 100%|##########| 215/215 [00:00<00:00, 338.55it/s]
+INFERENCE RELOAD RESULTS:
+Accuracy: 1.0000 (Matches best? True)
+Precision: 1.0000 (Matches best? True)
+Recall: 1.0000 (Matches best? True)
+F1: 1.0000 (Matches best? True)
+Reloaded Confusion Matrix:
+                Predicted
+              Bonafide Spoof
+Actual Bonafide  100     0
+       Spoof     0       100
+Final Prediction Dist: Bonafide=100, Spoof=100
+Any NaN/Inf outputs: False
+
+Total Training Time: 16.43 mins
+Maximum CUDA Memory Allocated: 1762.27 MB
+COMPLETED

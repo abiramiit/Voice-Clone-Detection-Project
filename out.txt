@@ -1,0 +1,58 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+========================================
+1. INIT MODEL
+========================================
+CUDA Available: True
+Allocated device: NVIDIA GeForce RTX 2050
+
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 211/211 [00:00<00:00, 53082.90it/s]
+[transformers] [1mWav2Vec2ForSequenceClassification LOAD REPORT[0m from: facebook/wav2vec2-base
+Key                          | Status     | 
+-----------------------------+------------+-
+project_hid.bias             | UNEXPECTED | 
+quantizer.weight_proj.bias   | UNEXPECTED | 
+project_q.weight             | UNEXPECTED | 
+quantizer.codevectors        | UNEXPECTED | 
+project_q.bias               | UNEXPECTED | 
+project_hid.weight           | UNEXPECTED | 
+quantizer.weight_proj.weight | UNEXPECTED | 
+classifier.weight            | MISSING    | 
+classifier.bias              | MISSING    | 
+projector.weight             | MISSING    | 
+projector.bias               | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Total Params: 94569090
+Trainable Params: 94569090
+Model Device: cuda:0
+
+========================================
+2. DATASET LOADER
+========================================
+
+========================================
+3. ONE SAMPLE FORWARD PASS
+========================================
+Input Shape: torch.Size([1, 55329])
+Actual Label: 0
+Logits Shape: torch.Size([1, 2])
+Logits: tensor([[0.0326, 0.0288]], device='cuda:0')
+Predicted Class: 0
+Forward pass occurred on CUDA: True
+
+========================================
+4. BATCH FORWARD PASS
+========================================
+Batch Size: 4
+Batch Input Shape: torch.Size([4, 70323])
+Labels: [0, 0, 1, 1]
+Batch Logits Shape: torch.Size([4, 2])
+Output Device: cuda:0
+NO CUDA OOM ERROR
+
+========================================
+COMPLETED STAGE 4 SMOKE TEST
+========================================

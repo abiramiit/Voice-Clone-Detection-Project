@@ -1,0 +1,196 @@
+Initializing Streaming Target server endpoints...
+Connecting to secure WebSocket WebRTC Server endpoint...
+Connected globally. Transmitting raw payload mappings.
+--- WINDOW 1 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 1977.71 ms
+End-to-End Actual Latency: 7154.01 ms
+Prediction: BONAFIDE
+--- WINDOW 2 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 109.18 ms
+End-to-End Actual Latency: 132.47 ms
+Prediction: BONAFIDE
+--- WINDOW 3 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 94.69 ms
+End-to-End Actual Latency: 111.49 ms
+Prediction: SPOOF
+--- WINDOW 4 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 220.48 ms
+End-to-End Actual Latency: 229.22 ms
+Prediction: SPOOF
+--- WINDOW 5 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 275.82 ms
+End-to-End Actual Latency: 289.22 ms
+Prediction: BONAFIDE
+--- WINDOW 6 ---
+Audio Duration: 0.41 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 1098.17 ms
+End-to-End Actual Latency: 1118.28 ms
+Prediction: BONAFIDE
+--- WINDOW 7 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 37.74 ms
+End-to-End Actual Latency: 55.40 ms
+Prediction: BONAFIDE
+--- WINDOW 8 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 131.57 ms
+End-to-End Actual Latency: 142.75 ms
+Prediction: BONAFIDE
+--- WINDOW 9 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 129.47 ms
+End-to-End Actual Latency: 141.20 ms
+Prediction: SPOOF
+--- WINDOW 10 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 280.74 ms
+End-to-End Actual Latency: 294.34 ms
+Prediction: BONAFIDE
+--- WINDOW 11 ---
+Audio Duration: 0.83 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 117.44 ms
+End-to-End Actual Latency: 125.98 ms
+Prediction: BONAFIDE
+--- WINDOW 12 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 226.92 ms
+End-to-End Actual Latency: 241.04 ms
+Prediction: BONAFIDE
+--- WINDOW 13 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 117.49 ms
+End-to-End Actual Latency: 125.84 ms
+Prediction: BONAFIDE
+--- WINDOW 14 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 260.65 ms
+End-to-End Actual Latency: 273.39 ms
+Prediction: SPOOF
+--- WINDOW 15 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 116.09 ms
+End-to-End Actual Latency: 127.24 ms
+Prediction: BONAFIDE
+--- WINDOW 16 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 238.50 ms
+End-to-End Actual Latency: 251.39 ms
+Prediction: BONAFIDE
+--- WINDOW 17 ---
+Audio Duration: 0.24 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 467.50 ms
+End-to-End Actual Latency: 476.66 ms
+Prediction: BONAFIDE
+--- WINDOW 18 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 124.82 ms
+End-to-End Actual Latency: 152.49 ms
+Prediction: BONAFIDE
+--- WINDOW 19 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 45.03 ms
+End-to-End Actual Latency: 64.94 ms
+Prediction: BONAFIDE
+--- WINDOW 20 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 36.42 ms
+End-to-End Actual Latency: 56.77 ms
+Prediction: SPOOF
+--- WINDOW 21 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 31.98 ms
+End-to-End Actual Latency: 48.14 ms
+Prediction: BONAFIDE
+--- WINDOW 22 ---
+Audio Duration: 0.66 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 117.85 ms
+End-to-End Actual Latency: 128.26 ms
+Prediction: BONAFIDE
+--- WINDOW 23 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 40.51 ms
+End-to-End Actual Latency: 59.94 ms
+Prediction: BONAFIDE
+--- WINDOW 24 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 118.27 ms
+End-to-End Actual Latency: 131.98 ms
+Prediction: BONAFIDE
+--- WINDOW 25 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 116.73 ms
+End-to-End Actual Latency: 131.94 ms
+Prediction: SPOOF
+--- WINDOW 26 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 125.34 ms
+End-to-End Actual Latency: 154.84 ms
+Prediction: BONAFIDE
+--- WINDOW 27 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 46.71 ms
+End-to-End Actual Latency: 66.87 ms
+Prediction: BONAFIDE
+--- WINDOW 28 ---
+Audio Duration: 0.07 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 344.59 ms
+End-to-End Actual Latency: 347.86 ms
+Prediction: SPOOF
+--- WINDOW 29 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 280.86 ms
+End-to-End Actual Latency: 298.71 ms
+Prediction: BONAFIDE
+--- WINDOW 30 ---
+Audio Duration: 1.00 seconds
+Server Preprocessing/Convert Latency: 0.00 ms
+GPU Inference Latency: 269.18 ms
+End-to-End Actual Latency: 285.71 ms
+Prediction: SPOOF
+
+============================
+--- STABILITY TEST COMPLETE ---
+Total Windows: 30
+Successful Windows: 30
+Failed Windows: 0
+E2E Mean Latency: 440.61 ms
+E2E Median Latency: 141.97 ms
+E2E P95 Latency: 829.55 ms
+GPU Mean Latency: 253.28 ms
+============================
+
+Safely terminating proxy boundaries globally.

@@ -1,0 +1,103 @@
+==================================================
+1. LOAD MODEL IN FP32
+==================================================
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:  14%|#3        | 30/215 [00:00<00:00, 252.55it/s]Loading weights:  28%|##7       | 60/215 [00:00<00:00, 244.38it/s]Loading weights:  40%|###9      | 85/215 [00:00<00:00, 231.99it/s]Loading weights:  53%|#####2    | 113/215 [00:00<00:00, 235.46it/s]Loading weights: 100%|##########| 215/215 [00:00<00:00, 402.63it/s]
+FP32 Mode Activated. Autocast/AMP Disabled.
+
+==================================================
+2/3/4. COMPLETE VALIDATION LOGIT, VARIANCE, SEPARATION
+==================================================
+Inference traversing 200 items smoothly...
+Extraction logged cleanly to reports\stage5_4_logits.csv
+
+[BONAFIDE] (N=100)
+ > logit_0: mean=3.922568, std=0.001497, min=3.916934, max=3.927045
+ > logit_1: mean=-3.390906, std=0.001128, min=-3.393612, max=-3.387479
+ > prob_0: mean=0.999334, std=0.000001, min=0.999330, max=0.999336
+ > prob_1: mean=0.000666, std=0.000001, min=0.000664, max=0.000670
+ > separation: mean=-7.313474, std=0.001581, min=-7.316890, max=-7.307349
+
+[SPOOF] (N=100)
+ > logit_0: mean=-3.985935, std=0.000775, min=-3.987364, max=-3.983707
+ > logit_1: mean=3.435043, std=0.001018, min=3.432052, max=3.436960
+ > prob_0: mean=0.000598, std=0.000001, min=0.000597, max=0.000600
+ > prob_1: mean=0.999402, std=0.000001, min=0.999400, max=0.999403
+ > separation: mean=7.420978, std=0.001223, min=7.417640, max=7.423183
+
+GLOBAL VARIANCE ACROSS ALL 200 SAMPLES (Are logits meaningfully varying?):
+Logit 0 Variance: 15.714682
+Logit 1 Variance: 11.706930
+
+==================================================
+5. AUDIO-TO-PREDICTION SENSITIVITY
+==================================================
+
+LA_D_1047731.flac Perturbations:
+ Original: [ 3.9235313 -3.39061  ]
+ Slice1..: [ 3.9235241 -3.389192 ]
+ Slice2..: [ 3.8611836 -3.3278   ]
+ Amp 0.5.: [ 3.9235313 -3.3906095]
+ Amp 1.5.: [ 3.9235313 -3.3906097]
+
+LA_D_1105538.flac Perturbations:
+ Original: [ 3.921679  -3.3917663]
+ Slice1..: [ 3.9208705 -3.390008 ]
+ Slice2..: [ 3.9153142 -3.387983 ]
+ Amp 0.5.: [ 3.9216793 -3.3917663]
+ Amp 1.5.: [ 3.9216788 -3.3917663]
+
+==================================================
+6. CROSS-SAMPLE TEST
+==================================================
+File: LA_D_1047731.flac | Act: 0 | Pred: 0 | Logits: [3.9235, -3.3906] | Probs: [0.9993, 0.0007]
+File: LA_D_1105538.flac | Act: 0 | Pred: 0 | Logits: [3.9217, -3.3918] | Probs: [0.9993, 0.0007]
+File: LA_D_1125976.flac | Act: 0 | Pred: 0 | Logits: [3.9246, -3.3894] | Probs: [0.9993, 0.0007]
+File: LA_D_1293230.flac | Act: 0 | Pred: 0 | Logits: [3.9218, -3.3893] | Probs: [0.9993, 0.0007]
+File: LA_D_1340209.flac | Act: 0 | Pred: 0 | Logits: [3.9214, -3.3907] | Probs: [0.9993, 0.0007]
+File: LA_D_1376638.flac | Act: 0 | Pred: 0 | Logits: [3.9255, -3.3903] | Probs: [0.9993, 0.0007]
+File: LA_D_1377420.flac | Act: 0 | Pred: 0 | Logits: [3.9215, -3.3934] | Probs: [0.9993, 0.0007]
+File: LA_D_1403371.flac | Act: 0 | Pred: 0 | Logits: [3.9215, -3.3920] | Probs: [0.9993, 0.0007]
+File: LA_D_1590530.flac | Act: 0 | Pred: 0 | Logits: [3.9227, -3.3904] | Probs: [0.9993, 0.0007]
+File: LA_D_1595036.flac | Act: 0 | Pred: 0 | Logits: [3.9248, -3.3911] | Probs: [0.9993, 0.0007]
+File: LA_D_1008730.flac | Act: 1 | Pred: 1 | Logits: [-3.9859, 3.4331] | Probs: [0.0006, 0.9994]
+File: LA_D_1034049.flac | Act: 1 | Pred: 1 | Logits: [-3.9867, 3.4337] | Probs: [0.0006, 0.9994]
+File: LA_D_1048723.flac | Act: 1 | Pred: 1 | Logits: [-3.9859, 3.4358] | Probs: [0.0006, 0.9994]
+File: LA_D_1067573.flac | Act: 1 | Pred: 1 | Logits: [-3.9869, 3.4326] | Probs: [0.0006, 0.9994]
+File: LA_D_1091909.flac | Act: 1 | Pred: 1 | Logits: [-3.9866, 3.4357] | Probs: [0.0006, 0.9994]
+File: LA_D_1092958.flac | Act: 1 | Pred: 1 | Logits: [-3.9861, 3.4352] | Probs: [0.0006, 0.9994]
+File: LA_D_1095842.flac | Act: 1 | Pred: 1 | Logits: [-3.9850, 3.4355] | Probs: [0.0006, 0.9994]
+File: LA_D_1101986.flac | Act: 1 | Pred: 1 | Logits: [-3.9844, 3.4357] | Probs: [0.0006, 0.9994]
+File: LA_D_1106597.flac | Act: 1 | Pred: 1 | Logits: [-3.9851, 3.4360] | Probs: [0.0006, 0.9994]
+File: LA_D_1125548.flac | Act: 1 | Pred: 1 | Logits: [-3.9858, 3.4362] | Probs: [0.0006, 0.9994]
+
+==================================================
+7. INTERMEDIATE REPRESENTATION TEST
+==================================================
+Within-Bonafide Similarity : 0.999687
+Within-Spoof Similarity    : 0.999837
+Cross-Class Similarity     : -0.967628
+
+==================================================
+8. CLASSIFIER WEIGHT INSPECTION
+==================================================
+Classifier Weight Shape: torch.Size([2, 256])
+Classifier Bias Shape: torch.Size([2])
+Classifier Weight Norm: 0.499246
+Classifier Bias Values: [ 8.456907e-05 -8.455439e-05]
+
+==================================================
+9. PROCESSOR / PADDING CHECK
+==================================================
+SR = 16000 confirmed.
+Lengths genuinely range and verify naturally since processing occurs iteratively unpadded.
+
+==================================================
+10. VALIDATION SELECTION WARNING
+==================================================
+WARNING: The validation set was explicitly used for checkpoint selection/tie-breaks.
+This implicitly renders it NOT an untouched test set.
+
+==================================================
+11. FINAL DIAGNOSTIC CATEGORY
+==================================================
+See STAGE5_4_MODEL_BEHAVIOR_AUDIT.md for qualitative synthesis category output limits.

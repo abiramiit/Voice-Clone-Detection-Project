@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading stream processor & model natively...
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:  14%|#3        | 30/215 [00:00<00:00, 298.04it/s]Loading weights:  28%|##7       | 60/215 [00:00<00:01, 123.68it/s]Loading weights:  36%|###6      | 78/215 [00:00<00:01, 136.99it/s]Loading weights:  45%|####4     | 96/215 [00:00<00:01, 83.58it/s] Loading weights:  74%|#######4  | 160/215 [00:01<00:00, 181.87it/s]Loading weights: 100%|##########| 215/215 [00:01<00:00, 206.85it/s]
+INFO:     Started server process [23508]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8001): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+Streaming Model Engine Ready! Optimized FP16 paths initialized.

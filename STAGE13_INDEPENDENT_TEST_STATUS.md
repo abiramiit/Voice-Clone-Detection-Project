@@ -1,0 +1,3 @@
+GENUINE INDEPENDENT TEST SET FOUND
+Bonafide Samples: 100
+Spoof Samples: 100

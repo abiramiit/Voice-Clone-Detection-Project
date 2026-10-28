@@ -1,0 +1,165 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+--- 1. INITIALIZING DATASET SUBSET EXTRACTION ---
+Connecting to Bisher/ASVspoof_2019_LA via streaming...
+
+Processing mapping for split: train
+Critical stream fault during execution iterating: Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6, 7, 8, and 9, and we attempt to load libtorchcodec
+             for each of those versions. Errors for versions not installed on
+             your system are expected; only the error for your installed FFmpeg
+             version is relevant. On Windows, ensure you've installed the
+             "full-shared" version which ships DLLs.
+          2. The PyTorch version (2.14.0+cpu) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 9:
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1587, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core9.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\_internally_replaced_utils.py", line 132, in load_core_libraries
+    torch.ops.load_library(core_library_path)
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1589, in load_library
+    raise OSError(f"Could not load this library: {path}") from e
+OSError: Could not load this library: E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core9.dll
+
+FFmpeg version 8:
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1587, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core8.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\_internally_replaced_utils.py", line 132, in load_core_libraries
+    torch.ops.load_library(core_library_path)
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1589, in load_library
+    raise OSError(f"Could not load this library: {path}") from e
+OSError: Could not load this library: E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core8.dll
+
+FFmpeg version 7:
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1587, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core7.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\_internally_replaced_utils.py", line 132, in load_core_libraries
+    torch.ops.load_library(core_library_path)
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1589, in load_library
+    raise OSError(f"Could not load this library: {path}") from e
+OSError: Could not load this library: E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core7.dll
+
+FFmpeg version 6:
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1587, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core6.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\_internally_replaced_utils.py", line 132, in load_core_libraries
+    torch.ops.load_library(core_library_path)
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1589, in load_library
+    raise OSError(f"Could not load this library: {path}") from e
+OSError: Could not load this library: E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core6.dll
+
+FFmpeg version 5:
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1587, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core5.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\_internally_replaced_utils.py", line 132, in load_core_libraries
+    torch.ops.load_library(core_library_path)
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1589, in load_library
+    raise OSError(f"Could not load this library: {path}") from e
+OSError: Could not load this library: E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core5.dll
+
+FFmpeg version 4:
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1587, in load_library
+    ctypes.CDLL(path)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 379, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core4.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\_internally_replaced_utils.py", line 132, in load_core_libraries
+    torch.ops.load_library(core_library_path)
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\torch\_ops.py", line 1589, in load_library
+    raise OSError(f"Could not load this library: {path}") from e
+OSError: Could not load this library: E:\resume-project1\.venv_dataset\Lib\site-packages\torchcodec\libtorchcodec_core4.dll
+[end of libtorchcodec loading traceback].
+
+==================================
+# REAL SUBSET VERIFICATION
+==================================
+
+Training:
+bonafide: 0
+spoof: 0
+
+Validation:
+bonafide: 0
+spoof: 0
+
+Test:
+bonafide: 0
+spoof: 0
+
+Total physical audio files: 0
+
+--- STATISTICS ---
+Total disk size: 0.00 MB
+Sample-rate distribution: []
+Duration -> Min: 0.00s | Max: 0.00s | Avg: 0.00s
+Corrupt file count: 0
+
+[HARD FAILURE] Target threshold not met for train bonafide. Got 0 / 500.
+STOP. Do not train.
+'Server disconnected without sending a response.' thrown while requesting GET https://huggingface.co/datasets/Bisher/ASVspoof_2019_LA/resolve/aea92dd83a9c56e070c0b1e9f02e7c0d96216a4c/data/train-00000-of-00001.parquet
+Retrying in 1s [Retry 1/5].
+Exception ignored in: <function ResourceTracker.__del__ at 0x000001E052850A40>
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\multiprocess\resource_tracker.py", line 80, in __del__
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\multiprocess\resource_tracker.py", line 89, in _stop
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\multiprocess\resource_tracker.py", line 102, in _stop_locked
+AttributeError: '_thread.RLock' object has no attribute '_recursion_count'

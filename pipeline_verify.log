@@ -1,0 +1,7 @@
+
+--- 2. VERIFYING EXTRACTED SUBSET INTEGRITY ---
+Total Physical Reads Evaluated.
+* Verifiably Passed: 0
+* Failed/Corrupt:  0
+* Missing completely:0
+[WARNING] Read count is 0, expected exactly 1400 target boundaries natively defined.

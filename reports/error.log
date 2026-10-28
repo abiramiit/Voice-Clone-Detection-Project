@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading processor...
+Loading model...
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:   7%|7         | 16/215 [00:00<00:01, 127.73it/s]Loading weights:  14%|#3        | 30/215 [00:00<00:01, 124.09it/s]Loading weights:  20%|##        | 43/215 [00:00<00:01, 113.72it/s]Loading weights:  26%|##6       | 56/215 [00:00<00:01, 119.35it/s]Loading weights:  33%|###3      | 72/215 [00:00<00:01, 125.99it/s]Loading weights:  42%|####1     | 90/215 [00:00<00:00, 142.47it/s]Loading weights:  52%|#####1    | 111/215 [00:00<00:00, 129.22it/s]Loading weights: 100%|##########| 215/215 [00:00<00:00, 242.54it/s]
+INFO:     Started server process [132]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+Model loaded successfully on cuda

@@ -1,0 +1,2 @@
+audio_id,offline_prediction,offline_bonafide_probability,offline_spoof_probability,stream_prediction,stream_bonafide_probability,stream_spoof_probability,sample_rate,sample_count,duration,rms,peak,logit_difference
+LA_D_1849134.flac,BONAFIDE,0.9993345141410828,0.0006654022727161646,BONAFIDE,0.9993320107460022,0.0006680048536509275,16000,16000,4.9041875,0.122960374,1.0,0.00390625

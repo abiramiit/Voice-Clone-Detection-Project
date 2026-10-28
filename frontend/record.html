@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Human Recording Collection</title>
+    <style>
+        body {
+            font-family: Inter, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            padding: 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 0.5rem;
+        }
+
+        .panel {
+            background: #1e293b;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border: 1px solid #334155;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            background: #334155;
+            border: 1px solid #475569;
+            color: #f1f5f9;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 0.5rem;
+        }
+
+        #startBtn {
+            background: #10b981;
+            color: white;
+        }
+
+        #startBtn:disabled {
+            background: #064e3b;
+            cursor: not-allowed;
+        }
+
+        #stopBtn {
+            background: #ef4444;
+            color: white;
+        }
+
+        #stopBtn:disabled {
+            background: #7f1d1d;
+            cursor: not-allowed;
+        }
+
+        .instructions {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .status-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .status-val {
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        #counters {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #0f172a;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: #cbd5e1;
+        }
+
+        #recordingsList {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #0f172a;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: #34d399;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Real Human Recording Collection</h1>
+
+    <div class="panel">
+        <ul class="instructions">
+            <li><strong>Speak naturally for approximately 20–30 seconds.</strong></li>
+            <li>Use your normal voice.</li>
+            <li>Do not play another person's recording through the microphone.</li>
+            <li>Record in a reasonably quiet environment.</li>
+            <li><strong>Each speaker must be a different real person.</strong></li>
+        </ul>
+
+        <label for="speakerId">Select Speaker:</label>
+        <select id="speakerId">
+            <option value="Speaker01">Speaker 01</option>
+            <option value="Speaker02">Speaker 02</option>
+            <option value="Speaker03">Speaker 03</option>
+            <option value="Speaker04">Speaker 04</option>
+            <option value="Speaker05">Speaker 05</option>
+        </select>
+
+        <div class="status-row">
+            <span>Status:</span> <span id="status" class="status-val">Waiting for microphone permission...</span>
+        </div>
+        <div class="status-row">
+            <span>Recording Duration:</span> <span id="duration" class="status-val">00:00</span>
+        </div>
+
+        <div style="margin-top: 1.5rem;">
+            <button id="startBtn">START RECORDING</button>
+            <button id="stopBtn" disabled>STOP RECORDING</button>
+        </div>
+    </div>
+
+    <div class="panel">
+        <label>Recording Counters</label>
+        <div id="counters">Loading...</div>
+    </div>
+
+    <div class="panel">
+        <label>Successfully Saved Recordings</label>
+        <div id="recordingsList">No recordings yet.</div>
+    </div>
+
+    <script>
+        let mediaRecorder;
+        let audioChunks = [];
+        let startTime;
+        let durationInterval;
+
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const speakerIdEl = document.getElementById('speakerId');
+        const statusEl = document.getElementById('status');
+        const durationEl = document.getElementById('duration');
+        const countersEl = document.getElementById('counters');
+        const listEl = document.getElementById('recordingsList');
+
+        async function fetchCounts() {
+            try {
+                let r = await fetch("/human-recordings-list");
+                let data = await r.json();
+
+                countersEl.innerHTML = '';
+                for (let i = 1; i <= 5; i++) {
+                    let sid = "Speaker" + String(i).padStart(2, '0');
+                    let count = data.counts[sid] || 0;
+                    countersEl.innerHTML += `<div>${sid}: ${count} recordings</div>`;
+                }
+
+                if (data.files && data.files.length > 0) {
+                    listEl.innerHTML = data.files.map(f => `<div>${f}</div>`).join("");
+                } else {
+                    listEl.innerHTML = "No recordings yet.";
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        fetchCounts();
+
+        function updateDuration() {
+            if (!startTime) return;
+            const ms = Date.now() - startTime;
+            const seconds = Math.floor(ms / 1000);
+            const m = String(Math.floor(seconds / 60)).padStart(2, '0');
+            const s = String(seconds % 60).padStart(2, '0');
+            durationEl.innerText = `${m}:${s}`;
+        }
+
+        startBtn.onclick = async () => {
+            const speakerId = speakerIdEl.value;
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                statusEl.innerText = "Microphone permission granted";
+
+                const track = stream.getAudioTracks()[0];
+                mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                audioChunks = [];
+
+                mediaRecorder.ondataavailable = e => {
+                    if (e.data.size > 0) audioChunks.push(e.data);
+                };
+
+                mediaRecorder.onstart = () => {
+                    startTime = Date.now();
+                    durationInterval = setInterval(updateDuration, 1000);
+                    speakerIdEl.disabled = true;
+                    startBtn.disabled = true;
+                    stopBtn.disabled = false;
+                    statusEl.innerText = "Recording...";
+                    statusEl.style.color = "#ef4444";
+                };
+
+                mediaRecorder.onstop = async () => {
+                    clearInterval(durationInterval);
+                    speakerIdEl.disabled = false;
+                    startBtn.disabled = false;
+                    stopBtn.disabled = true;
+                    statusEl.innerText = "Recording stopped. Uploading...";
+                    statusEl.style.color = "#fbbf24";
+
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+                    track.stop();
+
+                    if (audioBlob.size === 0) {
+                        statusEl.innerText = "BROWSER_RECORDING_EMPTY";
+                        return;
+                    }
+
+                    await uploadAudio(speakerId, audioBlob);
+                };
+
+                mediaRecorder.start(250);
+            } catch (err) {
+                statusEl.innerText = "Microphone permission denied or Error";
+                statusEl.style.color = "#ef4444";
+                alert("Error: " + err.message);
+            }
+        };
+
+        stopBtn.onclick = () => {
+            if (mediaRecorder && mediaRecorder.state !== "inactive") {
+                mediaRecorder.stop();
+            }
+        };
+
+        async function uploadAudio(speakerId, blob) {
+            const formData = new FormData();
+            formData.append("file", blob, "recording.webm");
+            formData.append("speaker_id", speakerId);
+
+            try {
+                const res = await fetch("/upload-human-recording", {
+                    method: "POST",
+                    body: formData
+                });
+                const data = await res.json();
+
+                if (!res.ok) throw new Error(data.error || "Upload failed");
+
+                statusEl.innerText = "Recording saved successfully";
+                statusEl.style.color = "#38bdf8";
+                durationEl.innerText = "00:00";
+
+                fetchCounts();
+            } catch (err) {
+                statusEl.innerText = "RECORDING_UPLOAD_FAILED: " + err.message;
+                statusEl.style.color = "#ef4444";
+            }
+        }
+    </script>
+</body>
+
+</html>

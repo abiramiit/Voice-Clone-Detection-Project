@@ -1,0 +1,25 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading stream processor & model natively...
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:  11%|#         | 23/215 [00:00<00:00, 221.95it/s]Loading weights:  21%|##1       | 46/215 [00:00<00:00, 207.42it/s]Loading weights:  31%|###1      | 67/215 [00:00<00:00, 201.45it/s]Loading weights:  48%|####7     | 103/215 [00:00<00:00, 249.23it/s]Loading weights: 100%|##########| 215/215 [00:00<00:00, 432.32it/s]
+INFO:     Started server process [14796]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+Streaming Model Engine Ready! Optimized FP16 paths initialized.
+INFO:     127.0.0.1:27298 - "GET /ws/stream?sample_rate=16000 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58923 - "WebSocket /ws/stream?sample_rate=16000" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58925 - "WebSocket /ws/stream?sample_rate=48000" [accepted]
+INFO:     connection open
+Client stream disconnected exactly after 0 sequences cleanly.
+Client stream disconnected exactly after 0 sequences cleanly.
+INFO:     127.0.0.1:28689 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28689 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45982 - "WebSocket /ws/stream?sample_rate=48000" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:35522 - "WebSocket /ws/stream?sample_rate=48000" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:1045 - "WebSocket /ws/stream?sample_rate=48000" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:15574 - "WebSocket /ws/stream?sample_rate=48000" [accepted]
+INFO:     connection open

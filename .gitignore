@@ -27,3 +27,11 @@ __pycache__/
 models/*.bin
 models/*.pt
 models/*.onnx
+
+# Large model checkpoints
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.onnx

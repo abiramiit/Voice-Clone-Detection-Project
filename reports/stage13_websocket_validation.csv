@@ -1,0 +1,2 @@
+connection_success,frames_received,inference_calls,failed_windows,nan_inf,transmission_errors,median_latency_ms,p95_latency_ms
+True,30,30,0,0,0,141.97,829.55

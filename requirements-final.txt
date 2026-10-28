@@ -1,0 +1,9 @@
+torch
+transformers
+numpy
+pandas
+fastapi
+uvicorn
+websockets
+soundfile
+scipy

@@ -1,0 +1,141 @@
+==================================================
+1. FILE-LEVEL TRAIN/VALIDATION OVERLAP & HASHES
+==================================================
+Calculating hashes for all 1200 files...
+Unique train audio paths: 1000 / 1000
+Unique validation audio paths: 200 / 200
+Duplicate filenames overall: 0
+Duplicate hashes overall: 0
+Train/validation identical-content files (hash overlap): 0
+
+==================================================
+2. SPEAKER DISTRIBUTION
+==================================================
+Train speaker count: 4
+Validation speaker count: 1
+Speaker overlap: 0
+
+Samples per speaker per class:
+--- Train ---
+       count        mean        std    min    25%    50%    75%    max
+label                                                                 
+0        4.0  125.000000   4.000000  119.0  125.0  127.0  127.0  127.0
+1        3.0  166.666667  33.486316  128.0  157.0  186.0  186.0  186.0
+--- Validation ---
+       count   mean  std    min    25%    50%    75%    max
+label                                                      
+0        1.0  100.0  NaN  100.0  100.0  100.0  100.0  100.0
+1        1.0  100.0  NaN  100.0  100.0  100.0  100.0  100.0
+
+==================================================
+3. LABEL DISTRIBUTION
+==================================================
+TRAIN:
+bonafide = 500
+spoof = 500
+
+VALIDATION:
+bonafide = 100
+spoof = 100
+
+==================================================
+4. FILE PATH CORRELATION
+==================================================
+Any structural separation by class directory?
+Train Bonafide dir representation: {'bonafide': 500}
+Train Spoof dir representation: {'spoof': 500}
+Filename prefixes (e.g., LA_T_, LA_E_):
+Bonafide prefixes: {'LA_T': 500, 'LA_D': 100}
+Spoof prefixes: {'LA_T': 500, 'LA_D': 100}
+
+==================================================
+5. AUDIO PROPERTY ANALYSIS
+==================================================
+Reading headers over 1200 files...
+
+Overall distributions:
+       samplerate     duration         frames
+count      1200.0  1200.000000    1200.000000
+mean      16000.0     3.123242   49971.875000
+std           0.0     1.225913   19614.605936
+min       16000.0     0.652438   10439.000000
+25%       16000.0     2.269609   36313.750000
+50%       16000.0     2.981594   47705.500000
+75%       16000.0     3.821859   61149.750000
+max       16000.0     9.711000  155376.000000
+
+TRAIN - Class 0:
+Min Dur : 1.4895s
+Max Dur : 6.3943s
+Mean Dur: 3.2527s
+Std Dur : 0.7973s
+
+TRAIN - Class 1:
+Min Dur : 0.6524s
+Max Dur : 9.7110s
+Mean Dur: 2.8737s
+Std Dur : 1.4695s
+
+VALIDATION - Class 0:
+Min Dur : 2.3835s
+Max Dur : 5.9272s
+Mean Dur: 3.9786s
+Std Dur : 0.7892s
+
+VALIDATION - Class 1:
+Min Dur : 0.7860s
+Max Dur : 9.4625s
+Mean Dur: 2.8684s
+Std Dur : 1.5123s
+
+==================================================
+6. AUDIO HASH DUPLICATION (Completed in #1)
+==================================================
+Zero duplicates across all files.
+
+==================================================
+7. MODEL PREDICTION AUDIT
+==================================================
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:   8%|7         | 17/215 [00:00<00:01, 164.07it/s]Loading weights:  27%|##7       | 59/215 [00:00<00:00, 307.93it/s]Loading weights:  42%|####1     | 90/215 [00:00<00:00, 232.70it/s]Loading weights:  53%|#####3    | 115/215 [00:00<00:00, 226.66it/s]Loading weights: 100%|##########| 215/215 [00:00<00:00, 380.82it/s]
+Running pure Validation inference (200 bounds)...
+Saved exact predictions to reports\stage5_3_predictions.csv
+
+==================================================
+8. CONFIDENCE DISTRIBUTION
+==================================================
+CORRECTLY CLASSIFIED BONAFIDE (Class 0):
+Min: 0.999512, Max: 0.999512, Mean: 0.999512, Median: 0.999512
+
+CORRECTLY CLASSIFIED SPOOF (Class 1):
+Min: 0.999512, Max: 0.999512, Mean: 0.999512, Median: 0.999512
+
+==================================================
+9. LOGIT ANALYSIS
+==================================================
+Example 1 [Actual 0]: Logits=(3.923828125, -3.390625) | Probs=(0.99951171875, 0.0006651878356933594)
+Example 2 [Actual 0]: Logits=(3.921875, -3.392578125) | Probs=(0.99951171875, 0.0006651878356933594)
+Example 3 [Actual 0]: Logits=(3.92578125, -3.388671875) | Probs=(0.99951171875, 0.0006651878356933594)
+Example 4 [Actual 0]: Logits=(3.921875, -3.388671875) | Probs=(0.99951171875, 0.0006680488586425781)
+Example 5 [Actual 0]: Logits=(3.921875, -3.390625) | Probs=(0.99951171875, 0.0006666183471679688)
+Example 6 [Actual 0]: Logits=(3.92578125, -3.390625) | Probs=(0.99951171875, 0.0006642341613769531)
+
+==================================================
+10. INDEPENDENT RELOAD
+==================================================
+Independent Validation Accuracy: 1.0000
+Independent Validation F1: 1.0000
+
+==================================================
+11. DATA LEAKAGE CHECK (REPORTING ONLY)
+==================================================
+Investigating leakage locations in pipeline...
+- Model init: No dataset context used globally before.
+- Training: Epochs processed training subset only (`split=='train'`). None overlap as confirmed by hashes.
+- Checkpoint Selection: Validation set Loss & F1 directly guided Model Checkpoint overwrite (Validation acted as Testing).
+- Preprocessing: None fitted globally.
+
+==================================================
+12. GENERALIZATION LIMITATIONS
+==================================================
+Output limitations logic written explicitly to Markdown report.
+Script execution fully completed without rewriting state.

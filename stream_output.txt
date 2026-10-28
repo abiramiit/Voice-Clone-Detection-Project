@@ -1,0 +1,49 @@
+Loading stream processor & model natively...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:  10%|#         | 22/215 [00:00<00:01, 181.90it/s]Loading weights:  19%|#9        | 41/215 [00:00<00:01, 114.47it/s]Loading weights:  25%|##5       | 54/215 [00:00<00:01, 84.68it/s] Loading weights:  30%|##9       | 64/215 [00:00<00:01, 83.42it/s]Loading weights:  34%|###3      | 73/215 [00:00<00:01, 77.74it/s]Loading weights:  38%|###8      | 82/215 [00:00<00:01, 70.94it/s]Loading weights:  48%|####7     | 103/215 [00:01<00:01, 86.29it/s]Loading weights:  53%|#####3    | 115/215 [00:01<00:01, 91.05it/s]Loading weights:  63%|######3   | 136/215 [00:01<00:00, 100.60it/s]Loading weights:  68%|######8   | 147/215 [00:01<00:00, 72.72it/s] Loading weights:  73%|#######2  | 156/215 [00:01<00:00, 72.73it/s]Loading weights:  80%|########  | 172/215 [00:01<00:00, 89.56it/s]Loading weights: 100%|##########| 215/215 [00:01<00:00, 108.33it/s]
+Streaming Model Engine Ready! Optimized FP16 paths initialized.
+INFO:     Started server process [6356]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:39451 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39451 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36721 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36721 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52474 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52474 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:16320 - "GET /static/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:13197 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13197 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52886 - "GET /static/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:16278 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:16278 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38731 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38731 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:16278 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     127.0.0.1:16486 - "GET /ws/stream?sample_rate=48000 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:9507 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47339 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     127.0.0.1:30388 - "GET /ws/stream?sample_rate=48000 HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+INFO:     127.0.0.1:18533 - "GET /ws/stream?sample_rate=48000 HTTP/1.1" 404 Not Found
+Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:     Shutting down
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFE927F652D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFE94C1CD87  Unknown               Unknown  Unknown
+ntdll.dll          00007FFE9552CAEC  Unknown               Unknown  Unknown
+^C

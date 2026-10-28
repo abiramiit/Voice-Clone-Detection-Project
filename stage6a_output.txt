@@ -1,0 +1,40 @@
+========================================
+STAGE 6A TEST DATA ACQUISITION START
+========================================
+Scanning previous hashes to govern subset isolation...
+Targeting untainted evaluation split: datasets-server: test split
+Streaming Test split natively targeting HF Datasets-Server REST API...
+Fetching loop offset: 0 | Bonafide: 0/100, Spoof: 0/100
+Fetching loop offset: 100 | Bonafide: 14/100, Spoof: 86/100
+Fetching loop offset: 200 | Bonafide: 28/100, Spoof: 100/100
+Fetching loop offset: 300 | Bonafide: 33/100, Spoof: 100/100
+Fetching loop offset: 400 | Bonafide: 46/100, Spoof: 100/100
+Fetching loop offset: 500 | Bonafide: 57/100, Spoof: 100/100
+Fetching loop offset: 600 | Bonafide: 64/100, Spoof: 100/100
+Fetching loop offset: 700 | Bonafide: 78/100, Spoof: 100/100
+Fetching loop offset: 800 | Bonafide: 88/100, Spoof: 100/100
+Independent Test Set completely bounded and generated.
+
+========================================
+STAGE 6A TEST DATA ACQUISITION
+========================================
+Source: Bisher/ASVspoof_2019_LA
+Source split: datasets-server: test split
+
+Extracted: 200
+Bonafide: 100
+Spoof: 100
+
+Train hash overlap: 0
+Validation hash overlap: 0
+
+Test speakers: 61
+Train/Test speaker overlap: 0
+Validation/Test speaker overlap: 0
+
+Corrupt: 0
+Sample rate: 200
+
+========================================
+END STAGE 6A
+========================================

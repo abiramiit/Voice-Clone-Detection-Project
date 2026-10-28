@@ -1,0 +1,25 @@
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'Bisher/ASVspoof_2019_LA' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+--- DATASET ENVIRONMENT CHECK ---
+Executing Dataset Extraction Node via Python isolate: 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]
+Target repository: 'Bisher/ASVspoof_2019_LA'
+
+[SUCCESS] Authentic Dataset stream iterator resolved sequentially.
+
+--- SCHEMA VALIDATION ---
+Dataset object type: <class 'datasets.iterable_dataset.IterableDataset'>
+Feature Names mapped implicitly: dict_keys(['speaker_id', 'audio_file_name', 'audio', 'system_id', 'key'])
+
+--- EXTRACTING EXACTLY THE FIRST 3 REAL ELEMENTS ---
+
+[FATAL ERROR] Data parsing iteration bounds failed:
+To support decoding audio data, please install 'torchcodec'.
+Exception ignored in: <function ResourceTracker.__del__ at 0x00000207C38D0680>
+Traceback (most recent call last):
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\multiprocess\resource_tracker.py", line 80, in __del__
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\multiprocess\resource_tracker.py", line 89, in _stop
+  File "E:\resume-project1\.venv_dataset\Lib\site-packages\multiprocess\resource_tracker.py", line 102, in _stop_locked
+AttributeError: '_thread.RLock' object has no attribute '_recursion_count'

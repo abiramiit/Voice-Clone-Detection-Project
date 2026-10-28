@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "E:\resume-project1\test_webrtc_client.py", line 1, in <module>
+    import asyncio
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\asyncio\__init__.py", line 8, in <module>
+    from .base_events import *
+  File "C:\Users\abira\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 38, in <module>
+    from . import constants
+  File "<frozen importlib._bootstrap>", line 1354, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1325, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 929, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1086, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+KeyboardInterrupt
+^C

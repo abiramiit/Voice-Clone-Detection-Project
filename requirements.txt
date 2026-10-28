@@ -1,0 +1,11 @@
+torch
+transformers
+datasets==2.19.0
+librosa
+soundfile
+numpy
+scikit-learn
+fastapi
+uvicorn
+websockets
+python-multipart

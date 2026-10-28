@@ -1,0 +1,21 @@
+# STAGE 13 FINAL DEMO CHECKLIST
+
+- [PASS] Model loads
+- [PASS] CLI inference works
+- [PASS] FastAPI starts
+- [PASS] /predict works
+- [PASS] Invalid upload handled
+- [PASS] WebSocket backend works
+- [PASS] Real audio reaches model
+- [PASS] CUDA works
+- [PASS] FP16 works
+- [PASS] No NaN/Inf
+- [PASS] No CUDA OOM
+- [PASS] Model checkpoint unchanged
+- [PASS] Validation metrics reproducible
+- [NOT VERIFIED] Independent test set available
+- [NOT VERIFIED] Independent test evaluation completed
+- [NOT VERIFIED] Physical microphone verified
+- [NOT VERIFIED] Real browser microphone verified
+- [PASS] Production security hardened
+- [NOT VERIFIED] Load testing completed

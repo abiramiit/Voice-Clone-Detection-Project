@@ -1,0 +1,32 @@
+{
+    "architecture": "Wav2Vec2ForSequenceClassification",
+    "number_of_parameters": 94569090,
+    "trainable_parameters": 94569090,
+    "frozen_parameters": 0,
+    "model_files": {
+        "config.json": {
+            "size_bytes": 2573,
+            "sha256": "b2387ee6d593c546d982a424c8e2a5b26086fb1428d11723df481c94380bc259"
+        },
+        "model.safetensors": {
+            "size_bytes": 378302312,
+            "sha256": "22f780d571a4b93dfe691dc7a33cd461f888911353445fa41e1dcd4e8a42d006"
+        },
+        "processor_config.json": {
+            "size_bytes": 312,
+            "sha256": "3d893d46663926ce1af64c384db768a615ef3b14cea72bb3d40eeb5a4309671e"
+        },
+        "tokenizer_config.json": {
+            "size_bytes": 1403,
+            "sha256": "70338d72e275f53ce0590e74b53325f161e89a443c0ddb635b77430b66c7425f"
+        },
+        "training_config.json": {
+            "size_bytes": 151,
+            "sha256": "1b3f1e16a35d061bb72df3ddba6da0e27ffc465433d528a2dfd943614592147f"
+        },
+        "vocab.json": {
+            "size_bytes": 392,
+            "sha256": "8ae64b2ec10a2ea5c4416ed0394dcad8643b764ef979109fbf5261cb88eb836f"
+        }
+    }
+}

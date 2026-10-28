@@ -1,0 +1,126 @@
+========================================
+STAGE 5 DIAGNOSTIC AUDIT
+========================================
+1. MODEL ARCHITECTURE USED
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|##########| 211/211 [00:00<00:00, 7740.67it/s]
+[transformers] [1mWav2Vec2ForSequenceClassification LOAD REPORT[0m from: facebook/wav2vec2-base
+Key                          | Status     | 
+-----------------------------+------------+-
+project_q.weight             | UNEXPECTED | 
+project_q.bias               | UNEXPECTED | 
+quantizer.weight_proj.bias   | UNEXPECTED | 
+quantizer.codevectors        | UNEXPECTED | 
+project_hid.weight           | UNEXPECTED | 
+quantizer.weight_proj.weight | UNEXPECTED | 
+project_hid.bias             | UNEXPECTED | 
+projector.weight             | MISSING    | 
+projector.bias               | MISSING    | 
+classifier.bias              | MISSING    | 
+classifier.weight            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Wav2Vec2ForSequenceClassification
+['Wav2Vec2ForPreTraining']
+
+2. VERIFY NUM_LABELS
+num_labels = 2
+
+3. VERIFY LABEL MAPPING
+config.id2label = {0: 'LABEL_0', 1: 'LABEL_1'}
+
+4. INSPECT METADATA.CSV
+Total samples: 1200
+Class 0 (Bonafide) count: 600
+Class 1 (Spoof) count: 600
+Train Class 0: 500, Train Class 1: 500
+Val Class 0: 100, Val Class 1: 100
+
+5. SELECT REAL SAMPLES AND VERIFY LABELS
+Sample 0 from dataset loader gives label: 0, mapped to metadata audio_path: e:\resume-project1\data\real_subset\train\bonafide\LA_T_1138215.flac
+Dataset loader label for metadata spoof index 500: 1, audio_path: e:\resume-project1\data\real_subset\train\spoof\LA_T_1004644.flac
+
+6. ONE REAL TRAINING BATCH
+Waveform (pseudo via input_values) shape: torch.Size([2, 70323])
+Input_values shape: torch.Size([2, 70323])
+Labels: tensor([0, 0], device='cuda:0')
+Logits BEFORE optimizer step: tensor([[-0.0605, -0.0182],
+        [-0.0668, -0.0128]], dtype=torch.float16)
+Loss: 0.717529296875
+
+7. RUN BACKWARD
+Backward pass executed
+
+8. GRADIENT STATISTICS
+Projector: Present, Finite, norm=79118.437500
+Classifier: Present, Finite, norm=84217.742188
+Feature Extractor (Conv 0): Non-finite
+Encoder (Transformer last layer): Present, Finite, norm=1086.442871
+
+9. OPTIMIZER PARAMETERS
+Optimizer holds 215 parameter tensors, model has 215 trainable tensors.
+
+10. OPTIMIZER CLASS & LR
+Optimizer Class: AdamW
+Learning Rate: 5e-05
+
+11. VERIFY OPTIMIZER.STEP()
+Classifier weights changed after step: False
+
+12. FEATURE EXTRACTION FROZEN CHECK
+Feature Extractor requires_grad: True
+Wav2Vec2 'freeze_feature_extractor' was NOT manually called in stage 5 script.
+
+13. GRADIENT CHECKPOINTING
+Gradient Checkpointing Enabled: True
+
+14. AMP CONFIGURATION
+AMP enabled during step 6 & 7 context: True, dtype=torch.float16 (default for amp via 'cuda')
+
+15. ACCUMULATION STEPS
+Accumulation steps were set to 8 in Stage 5.
+
+16. LOSS CALCULATION
+Wav2VecForSequenceClassification internally uses CrossEntropyLoss on the logits vs labels.
+
+17. VALIDATION LOGIC
+Validation in stage5 used model.eval(), torch.no_grad(), and argmax(logits, dim=-1) accurately.
+
+18. CLASS WEIGHING BIAS
+No internal class weights were provided to the model. CrossEntropyLoss defaults to equal weights.
+
+19. SAVED MODEL PREDICTION DISTRIBUTION
+Loading weights:   0%|          | 0/215 [00:00<?, ?it/s]Loading weights:   7%|6         | 14/215 [00:00<00:02, 80.87it/s]Loading weights:  24%|##4       | 52/215 [00:00<00:00, 202.72it/s]Loading weights:  35%|###4      | 75/215 [00:00<00:00, 193.06it/s]Loading weights:  47%|####6     | 100/215 [00:00<00:00, 205.95it/s]Loading weights:  62%|######1   | 133/215 [00:00<00:00, 236.70it/s]Loading weights:  73%|#######3  | 158/215 [00:00<00:00, 228.50it/s]Loading weights:  85%|########5 | 183/215 [00:00<00:00, 232.29it/s]Loading weights:  96%|#########6| 207/215 [00:01<00:00, 202.10it/s]Loading weights: 100%|##########| 215/215 [00:01<00:00, 212.22it/s]
+Sample of 5 real audios: Predicted 5 Class 0, 0 Class 1
+
+20. IDENTICAL LOGITS (SAVED MODEL)?
+Logit 0: tensor([[ 0.0948, -0.0500]])
+Logit 1: tensor([[ 0.0948, -0.0500]])
+
+21. CLASSIFIER CHANGED DURING TOTAL TRAINING?
+Loading weights:   0%|          | 0/211 [00:00<?, ?it/s]Loading weights: 100%|##########| 211/211 [00:00<00:00, 5693.25it/s]
+[transformers] [1mWav2Vec2ForSequenceClassification LOAD REPORT[0m from: facebook/wav2vec2-base
+Key                          | Status     | 
+-----------------------------+------------+-
+project_q.weight             | UNEXPECTED | 
+project_q.bias               | UNEXPECTED | 
+quantizer.weight_proj.bias   | UNEXPECTED | 
+quantizer.codevectors        | UNEXPECTED | 
+project_hid.weight           | UNEXPECTED | 
+quantizer.weight_proj.weight | UNEXPECTED | 
+project_hid.bias             | UNEXPECTED | 
+projector.weight             | MISSING    | 
+projector.bias               | MISSING    | 
+classifier.bias              | MISSING    | 
+classifier.weight            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Saved model classifier == Base model classifier? False
+
+========================================
+END OF DIAGNOSTIC
+========================================

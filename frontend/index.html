@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Forensics Lab</title>
+    <meta name="description" content="Real-time deepfake speech detection — research prototype. Wav2Vec2 & PyTorch.">
+    <link rel="stylesheet" href="/static/style.css?v=3">
+</head>
+
+<body>
+
+    <!-- ===== A. TOP BAR ===== -->
+    <nav class="topbar">
+        <div class="logo">
+            <svg width="26" height="22" viewBox="0 0 26 22" fill="none" aria-hidden="true">
+                <rect x="0" y="8" width="3" height="6" rx="1" fill="#22d3ee" opacity=".7" />
+                <rect x="5" y="4" width="3" height="14" rx="1" fill="#8b5cf6" />
+                <rect x="10" y="0" width="3" height="22" rx="1" fill="#22d3ee" />
+                <rect x="15" y="4" width="3" height="14" rx="1" fill="#8b5cf6" />
+                <rect x="20" y="8" width="3" height="6" rx="1" fill="#22d3ee" opacity=".7" />
+            </svg>
+            <span class="logo-text">Voice Forensics Lab</span>
+        </div>
+        <div class="topbar-chips">
+            <span class="chip"><span id="connDot" class="dot dot-gray"></span><span
+                    id="connText">Disconnected</span></span>
+            <span class="chip" id="chipMic">Mic: Off</span>
+            <span class="chip" id="chipSR">16 kHz</span>
+            <span class="chip" id="chipDevice" style="display:none">CPU</span>
+        </div>
+        <span class="session-timer" id="sessionTimer">00:00:00</span>
+    </nav>
+
+    <!-- ===== MAIN LAB ===== -->
+    <div class="lab">
+
+        <!-- ===== B/C. CENTERPIECE: VOICE ORB + VIZ TABS ===== -->
+        <section class="panel">
+            <div class="panel-hd">
+                <span class="panel-title">Live Analysis</span>
+                <div style="display:flex;align-items:center;gap:var(--sp3)">
+                    <div class="viz-tabs">
+                        <button class="viz-tab active" data-mode="orb" id="tabOrb" title="1">Orb</button>
+                        <button class="viz-tab" data-mode="wf" id="tabWf" title="2">Waterfall</button>
+                        <button class="viz-tab" data-mode="spec" id="tabSpec" title="3">Spectrogram</button>
+                        <button class="viz-tab" data-mode="scope" id="tabScope" title="4">Scope</button>
+                    </div>
+                    <span id="liveBadge" class="live-badge">● LIVE</span>
+                </div>
+            </div>
+
+            <!-- Orb canvas -->
+            <div id="orbWrap" class="canvas-container cc-orb">
+                <canvas id="orbCanvas"></canvas>
+                <div id="orbHint" class="canvas-hint">
+                    <strong>VOICE FORENSICS LAB</strong>
+                    <span>Press <strong>SPACE</strong> to start the microphone</span>
+                </div>
+            </div>
+
+            <!-- Alt viz canvas (hidden when orb active) -->
+            <div id="vizWrap" class="canvas-container cc-viz" style="display:none;margin-top:4px">
+                <canvas id="vizCanvas"></canvas>
+            </div>
+
+            <div class="btn-row">
+                <button id="startBtn" class="btn btn-start">&#9654; Start Microphone</button>
+                <button id="stopBtn" class="btn btn-stop" disabled>&#9724; Stop</button>
+            </div>
+            <div class="kbd-hint">Space = Start/Stop &nbsp;|&nbsp; 1-4 = Switch mode</div>
+            <div id="micError" class="mic-error"></div>
+        </section>
+
+        <!-- ===== D. VERDICT + GAUGE ===== -->
+        <div class="verdict-gauge-row">
+            <!-- Verdict -->
+            <div class="panel verdict-card">
+                <div class="panel-title" style="margin-bottom:var(--sp3)">Aggregated Verdict</div>
+                <div id="verdictIcon" class="verdict-icon">🔈</div>
+                <div id="verdictMain" class="verdict-main">—</div>
+                <div id="verdictBadge" class="verdict-badge vb-hidden"></div>
+                <div id="verdictRaw" class="verdict-raw">Raw: —</div>
+            </div>
+
+            <!-- Gauge -->
+            <div class="panel" style="padding:var(--sp4)">
+                <div class="panel-title" style="margin-bottom:var(--sp2)">Spoof Probability</div>
+                <div id="gaugeWrap" class="canvas-container cc-gauge">
+                    <canvas id="gaugeCanvas"></canvas>
+                </div>
+                <div class="gauge-nums">
+                    <span><span class="gauge-lbl">Aggregated</span><span id="gaugeAgg" class="gauge-val">—</span></span>
+                    <span><span class="gauge-lbl">Raw</span><span id="gaugeRaw" class="gauge-val">—</span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== E. SIGNAL QUALITY ===== -->
+        <section class="panel">
+            <div class="panel-hd"><span class="panel-title">Signal Quality</span></div>
+            <div class="rms-label">RMS Level</div>
+            <div class="rms-track">
+                <div id="rmsFill" class="rms-fill" style="width:0%"></div>
+                <div id="rmsPeak" class="rms-peak" style="left:0%"></div>
+            </div>
+            <div class="rms-row">
+                <span id="rmsStatus" class="rms-status quiet">—</span>
+                <span id="rmsValue" style="color:var(--t2)">—</span>
+            </div>
+            <div class="signal-extras">
+                <div class="sig-row">
+                    <span class="sig-key">Dominant Freq</span>
+                    <span><span id="domFreq" class="sig-val">—</span> <span class="sig-note">(client-est.)</span></span>
+                </div>
+                <div class="sig-row">
+                    <span class="sig-key">Spectral Centroid</span>
+                    <span><span id="specCentroid" class="sig-val">—</span> <span
+                            class="sig-note">(client-est.)</span></span>
+                </div>
+                <div class="sig-row">
+                    <span class="sig-key">Noise Floor</span>
+                    <span><span id="noiseFloor" class="sig-val">—</span> <span
+                            class="sig-note">(client-est.)</span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== F. FORENSIC TIMELINE ===== -->
+        <section class="panel" style="position:relative">
+            <div class="panel-hd">
+                <span class="panel-title">Forensic Timeline (last 120 windows)</span>
+                <span class="flip-counter">Flips this session: <span id="flipCount">0</span></span>
+            </div>
+            <div id="tlWrap" class="canvas-container cc-timeline">
+                <canvas id="tlCanvas"></canvas>
+            </div>
+            <div id="tlTip" class="timeline-tooltip"></div>
+        </section>
+
+        <!-- ===== G. METRICS STRIP ===== -->
+        <div class="metrics-strip">
+            <div class="metric">
+                <div class="metric-lbl">Inference</div>
+                <div id="mInf" class="metric-val">–</div>
+                <div class="sparkline-container"><canvas id="spkInf"></canvas></div>
+            </div>
+            <div class="metric">
+                <div class="metric-lbl">Pre-process</div>
+                <div id="mPre" class="metric-val">–</div>
+                <div class="sparkline-container"><canvas id="spkPre"></canvas></div>
+            </div>
+            <div class="metric">
+                <div class="metric-lbl">Total Latency</div>
+                <div id="mTot" class="metric-val">–</div>
+                <div class="sparkline-container"><canvas id="spkTot"></canvas></div>
+            </div>
+            <div class="metric">
+                <div class="metric-lbl">Windows</div>
+                <div id="mWin" class="metric-val">0</div>
+                <div class="sparkline-container"><canvas id="spkWin"></canvas></div>
+            </div>
+            <div class="metric">
+                <div class="metric-lbl">Stability</div>
+                <div id="mStab" class="metric-val">–</div>
+                <div class="sparkline-container"><canvas id="spkStab"></canvas></div>
+            </div>
+            <div class="metric">
+                <div class="metric-lbl">Errors <small style="color:var(--t3);font-size:.55rem">(WS/M/UI)</small></div>
+                <div id="mErr" class="metric-val err">0/0/0</div>
+                <div class="sparkline-container"><canvas id="spkErr"></canvas></div>
+            </div>
+        </div>
+
+        <!-- ===== H. SESSION LOG ===== -->
+        <section class="panel history-card">
+            <div class="panel-hd">
+                <span class="panel-title">Session Log</span>
+                <div class="log-hd-actions">
+                    <button id="btnClear" class="btn-xs">Clear</button>
+                    <button id="btnCSV" class="btn-xs">Export CSV</button>
+                    <button id="btnJSON" class="btn-xs">Export JSON</button>
+                    <button id="btnSnapshot" class="btn-xs snapshot">📷 Snapshot</button>
+                </div>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Time</th>
+                            <th>Raw Pred</th>
+                            <th>Raw%</th>
+                            <th>Agg Pred</th>
+                            <th>Agg%</th>
+                            <th>RMS</th>
+                            <th>Latency</th>
+                            <th>Stability</th>
+                        </tr>
+                    </thead>
+                    <tbody id="logBody"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ===== I. FOOTER ===== -->
+        <footer class="footer">
+            <p>Research prototype. Predictions on live microphone audio are not validated for production use.</p>
+            <p id="modelInfo" style="display:none">Model: <span id="modelName"></span></p>
+        </footer>
+
+    </div><!-- /.lab -->
+    <script src="/static/app.js?v=3"></script>
+</body>
+
+</html>

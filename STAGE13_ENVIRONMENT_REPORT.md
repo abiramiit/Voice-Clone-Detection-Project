@@ -1,0 +1,13 @@
+# STAGE 13: ENVIRONMENT REPORT
+- Python version: 3.12.0
+- PyTorch version: 2.11.0+cu128
+- Transformers version: 5.17.0
+- NumPy version: 2.5.3
+- SoundFile version: 0.14.0
+- FastAPI version: 0.141.1
+- Uvicorn version: 0.53.0
+- WebSockets version: 17.1
+- CUDA availability: True
+- CUDA runtime: 12.8
+- GPU name: NVIDIA GeForce RTX 2050
+- GPU memory: 4.29 GB

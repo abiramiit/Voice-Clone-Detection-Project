@@ -1,0 +1,28 @@
+Unique splits found in metadata.csv: ['train', 'validation']
+
+NO INDEPENDENT TEST SET AVAILABLE.
+
+========================================
+STAGE 6 INDEPENDENT TEST EVALUATION
+========================================
+Test samples: N/A
+Bonafide: N/A
+Spoof: N/A
+
+Train/Test hash overlap: N/A
+Validation/Test hash overlap: N/A
+
+Speaker overlap with train: N/A
+Speaker overlap with validation: N/A
+
+Accuracy: N/A
+Precision: N/A
+Recall: N/A
+F1: N/A
+ROC-AUC: N/A
+EER: N/A
+FPR: N/A
+FNR: N/A
+========================================
+END STAGE 6
+========================================
